@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanTriVien.QuanLyLaptop.Activity_ThemLaptop">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/XemLaptop_toolbar"/>
+
+    <ImageView
+        android:id="@+id/XemLaptop_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã laptop"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <TextView
+                android:id="@+id/XemLaptop_tvMaLaptop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:paddingTop="20dp"
+                android:text="Mã laptop"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên laptop"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtTenLaptop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Tên laptop"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thương hiệu"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            //thương hiệu
+            <Spinner
+                android:id="@+id/XemLaptop_spnThuongHieu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"></Spinner>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cấu hình"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtCauHinh"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Cấu hình"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Màu sắc"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtMauSac"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Màu sắc"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá nhập"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtGiaNhap"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Giá nhập"
+                android:inputType="number"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá bán"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtGiaBan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Giá bán"
+                android:inputType="number"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Link sản phẩm"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtLink"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Link sản phẩm ( nếu có )"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                ></EditText>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lượng"
+                android:textSize="20sp"
+                android:layout_marginLeft="27dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"></TextView>
+            <EditText
+                android:id="@+id/XemLaptop_edtSL"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Số lượng"
+                android:inputType="number"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginRight="25dp"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="15dp"
+                ></EditText>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

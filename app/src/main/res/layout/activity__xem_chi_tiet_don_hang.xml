@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhachHang.ChucNang_XemTinhTrangDonHang.Activity_XemChiTietDonHang">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:id="@+id/XemCTDonHang_toolbar"/>
+
+    <TextView
+        android:id="@+id/XemCTDonHang_tvMaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã đơn : DH90384593"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#000"></TextView>
+    <TextView
+        android:id="@+id/XemCTDonHang_tvNgayDat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày đặt : 21/05/2021"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#000"></TextView>
+    <TextView
+        android:id="@+id/XemCTDonHang_tvTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền : 112.000.000 VNĐ"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#FF0000"></TextView>
+
+    <TextView
+        android:id="@+id/XemCTDonHang_tvTinhTrangDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tình trạng đơn : ĐÃ HỦY"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#882727"></TextView>
+    <TextView
+        android:id="@+id/XemCTDonHang_tvLyDoHuyDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lý do hủy đơn: "
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#090909"></TextView>
+    <TextView
+        android:id="@+id/XemCTDonHang_tvNoiDungHuyDon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_tv"
+        android:text="kldjfgkljdl;fgkjl;dkfgl;dkfg"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:padding="10dp"></TextView>
+
+    <ListView
+        android:id="@+id/XemCTDonHang_lv"
+        android:layout_marginTop="20sp"
+        android:padding="10dp"
+        android:divider="#000"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

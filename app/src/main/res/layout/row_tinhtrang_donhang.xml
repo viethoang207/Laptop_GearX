@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_hoadon2"
+            android:layout_marginTop="20dp"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rowTTDonDatHang_tvMaDon"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Mã đơn : ĐH190234"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+            <TextView
+                android:id="@+id/rowTTDonDatHang_tvTongTien"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền : 112.000.000 đ"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#FD0000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/rowTTDonDatHang_tvNgayLay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày lấy : 30/05/2021"
+                    android:textColor="#000"
+                    android:textSize="17sp"></TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/rowTTDonDatHang_tvTinhTrang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ĐÃ XÁC NHẬN"
+                android:textColor="#FF0000"
+                android:textSize="17sp"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

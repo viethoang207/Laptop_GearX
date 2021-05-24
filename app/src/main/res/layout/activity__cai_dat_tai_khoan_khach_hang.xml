@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhachHang.ChucNang_CaiDat.Activity_CaiDatTaiKhoanKhachHang">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CDTaiKHoan_ToolBar"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_thongtintk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/CDTaiKHoan_ThongTin"
+        android:layout_below="@+id/CDTaiKHoan_ToolBar"
+        android:background="#fff"
+        android:text="  Thông tin tài khoản"
+        android:textAllCaps="true"
+        android:textAlignment="viewStart"
+        android:paddingLeft="10dp"
+        android:textSize="17sp"
+        android:layout_gravity="start" />
+
+    <Button
+
+        android:drawableLeft="@drawable/ic_donhang"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/CDTaiKHoan_DonDatHang"
+        android:layout_below="@+id/CDTaiKHoan_ThongTin"
+        android:background="#FFFFFF"
+        android:text="   Đơn hàng"
+        android:textAllCaps="true"
+        android:textAlignment="viewStart"
+        android:paddingLeft="10dp"
+        android:textSize="17sp"
+        android:layout_gravity="start" />
+
+    <Button
+
+        android:drawableLeft="@drawable/ic_doimk"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/CDTaiKHoan_DoiMK"
+        android:layout_below="@+id/CDTaiKHoan_DonDatHang"
+        android:background="#FFFFFF"
+        android:text="   Đổi mật khẩu"
+        android:textAllCaps="true"
+        android:textAlignment="viewStart"
+        android:paddingLeft="10dp"
+        android:textSize="17sp"
+        android:layout_gravity="start" />
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/CDTaiKHoan_DangXuat"
+        android:layout_below="@+id/CDTaiKHoan_DoiMK"
+        android:background="#DC6860"
+        android:text="Đăng Xuất"
+        android:textAllCaps="true"
+        android:paddingLeft="10dp"
+        android:textSize="17sp"
+        />
+
+</RelativeLayout>

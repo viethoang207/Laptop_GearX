@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhachHang.Activity_KhachHang_XemCTSP">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/XemCTSP_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="722dp"
+        />
+
+    <TextView
+        android:id="@+id/XemCTSP_tvDaCoGioHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="520dp"
+        android:layout_marginLeft="100dp"
+
+        android:text="❗sản phẩm đã có trong giỏ hàng"
+        android:textColor="#FF0000"></TextView>
+
+    <ImageView
+        android:id="@+id/XemCTSP_img"
+        android:src="@drawable/laptop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="556dp"></ImageView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="78dp">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            //Giá
+            <TextView
+                android:id="@+id/XemCTSP_tvGiaBan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21.990.000 đ"
+                android:textSize="30sp"
+                android:textColor="#673AB7"
+                android:layout_marginBottom="20dp"
+
+                android:layout_gravity="center"></TextView>
+
+            //Tên gọi
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#E60000"
+                    android:text="Tên gọi"></TextView>
+                <TextView
+                    android:id="@+id/XemCTSP_tvTenLaptop"
+                    android:textColor="#000"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Lenovo Legion 5"></TextView>
+            </LinearLayout>
+            //
+
+            //Thương hiệu
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#FF0000"
+                    android:text="Thương hiệu"></TextView>
+                <TextView
+                    android:id="@+id/XemCTSP_tvThuongHieu"
+                    android:textColor="#000"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Lenovo"></TextView>
+            </LinearLayout>
+            //
+
+            //Cấu hình
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#FF0000"
+                    android:text="Cấu hình"></TextView>
+                <TextView
+                    android:id="@+id/XemCTSP_tvCauHinh"
+                    android:textColor="#000"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="GEFORCE GTX 1660TI 6GB INTEL CORE I7 10750H 512GB 8GB 15.6 FHD IPS 120HZ 4-ZONES RGB WIN 10"></TextView>
+            </LinearLayout>
+            //
+
+            //Màu sắc
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#FF0000"
+                    android:text="Màu sắc"></TextView>
+                <TextView
+                    android:id="@+id/XemCTSP_tvMauSac"
+                    android:textColor="#000"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Đen đỏ"></TextView>
+            </LinearLayout>
+            //
+
+            //số lượng còn
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="#FF0000"
+                    android:text="Kho"></TextView>
+                <TextView
+                    android:id="@+id/XemCTSP_tvSLCon"
+                    android:textColor="#000"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="10"></TextView>
+            </LinearLayout>
+            //
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/XemCTSP_linearThemGioHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_giohang"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Thêm vào giỏ hàng"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000"
+                android:textSize="15sp"></TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/XemCTSP_btnMuaNgay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="#FF0303"
+            android:text="Mua ngay"
+            android:textColor="#fff"></Button>
+    </LinearLayout>
+</RelativeLayout>

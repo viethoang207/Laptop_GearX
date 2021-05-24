@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laptop_gearx">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Laptop_GearX">
+        <activity android:name=".KhachHang.ChucNang_XemTinhTrangDonHang.Activity_XemChiTietDonHang"></activity>
+        <activity android:name=".KhachHang.ChucNang_XemTinhTrangDonHang.Activity_KhachHang_XemTinhTrangDonHang" />
+        <activity
+            android:name=".QuanTriVien.QuanLyDonDatHang.QuanLyDonThanhToan.Activity_QuanLyHoaDonThanhToan"
+            android:parentActivityName=".QuanTriVien.QuanLyDonDatHang.Activity_QuanLyDonDatHang" />
+        <activity
+            android:name=".QuanTriVien.QuanLyDonDatHang.ChucNang_ThanhToanHoaDon.Activity_ThanhToanHoaDon"
+            android:parentActivityName=".QuanTriVien.QuanLyDonDatHang.QuanLyDonThanhToan.Activity_QuanLyHoaDonThanhToan" />
+        <activity
+            android:name=".QuanTriVien.QuanLyDonDatHang.QuanLyDonXacNhan.Activity_QuanLyDonXacNhan"
+            android:parentActivityName=".QuanTriVien.QuanLyDonDatHang.Activity_QuanLyDonDatHang" />
+        <activity
+            android:name=".QuanTriVien.QuanLyDonDatHang.Activity_QuanLyDonDatHang"
+            android:parentActivityName=".QuanTriVien.Activity_ManHinhChinh_QTV" />
+        <activity
+            android:name=".KhachHang.ChucNang_CaiDat.Activity_CaiDatTaiKhoanKhachHang"
+            android:parentActivityName=".KhachHang.Activity_ManHinhChinh_KhachHang" />
+        <activity
+            android:name=".KhachHang.ChucNang_DatHangTuGioHang.Activity_DatHangTuGioHang"
+            android:parentActivityName=".KhachHang.ChucNang_GioHang.Activity_ChiTietGioHang" />
+        <activity
+            android:name=".KhachHang.ChucNang_GioHang.Activity_ChiTietGioHang"
+            android:parentActivityName=".KhachHang.Activity_ManHinhChinh_KhachHang" />
+        <activity android:name=".KhachHang.Activity_KhachHang_XemCTSP" />
+        <activity android:name=".QuanTriVien.QuanLyLaptop.Activity_XemChiTietLaptop" />
+        <activity android:name=".QuanTriVien.QuanLyLaptop.Activity_ThemLaptop" />
+        <activity android:name=".QuanTriVien.QuanLyLaptop.Activity_QuanLyLaptop" />
+        <activity android:name=".QuanTriVien.Activity_ManHinhChinh_QTV" />
+        <activity android:name=".KhachHang.Activity_ManHinhChinh_KhachHang" />
+        <activity android:name=".DangKiTaiKhoan.Activity_DangKiTaiKhoan" />
+        <activity android:name=".DangNhap.Activity_DangNhap" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

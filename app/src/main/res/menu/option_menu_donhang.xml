@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_menu_donhang_itChoXacNhan"
+        android:title="Đơn chờ xác nhận"
+        ></item>
+    <item
+        android:id="@+id/option_menu_donhang_itDaXacNhan"
+        android:title="Đã xác nhận"
+        ></item>
+    <item
+        android:id="@+id/option_menu_donhang_itThanhToan"
+        android:title="Đã thanh toán"
+        ></item>
+    <item
+        android:id="@+id/option_menu_donhang_itDonHuy"
+        android:title="Đơn hủy"
+        ></item>
+</menu>

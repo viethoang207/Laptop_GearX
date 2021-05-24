@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/context_menu_dondathang_itThanhToan"
+        android:title="Thanh toán"
+        ></item>
+
+    <item
+        android:id="@+id/context_menu_dondathang_itHuyDon"
+        android:title="Hủy đơn"
+        ></item>
+
+</menu>

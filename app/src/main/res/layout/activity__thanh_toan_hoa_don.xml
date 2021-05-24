@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanTriVien.QuanLyDonDatHang.ChucNang_ThanhToanHoaDon.Activity_ThanhToanHoaDon">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ThanhToanHoaDon_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CÔNG TY TNHH LAPTOP GEARX"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HÓA ĐƠN BÁN HÀNG"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"></TextView>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã hóa đơn: "
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/ThanhToanHoaDon_tvMaHD"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HDDH2123156"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người bán: "
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/ThanhToanHoaDon_tvNguoiBan"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoàng Việt"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người mua: "
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/ThanhToanHoaDon_NguoiMua"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đỗ Phương Linh"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày lập hóa đơn: "
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/ThanhToanHoaDon_tvNgayBan"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23/05/2021"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi tiết hóa đơn"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:textColor="#3F51B5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"></TextView>
+            <ListView
+                android:id="@+id/ThanhToanHoaDon_lv"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></ListView>
+            <TextView
+                android:id="@+id/ThanhToanHoaDon_tvTongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền : 0 VNĐ"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"></TextView>
+            <Button
+                android:id="@+id/ThanhToanHoaDon_btnThanhToan"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/botron_btn"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:text="Thanh toán"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

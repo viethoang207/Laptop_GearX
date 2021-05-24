@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanTriVien.QuanLyLaptop.Activity_ThemLaptop">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/ThemLaptop_toolbar"/>
+
+
+    <EditText
+        android:id="@+id/ThemLaptop_edtMaLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Mã laptop"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtTenLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Tên laptop"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+
+    //thương hiệu
+    <Spinner
+        android:id="@+id/ThemLaptop_spnThuongHieu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"></Spinner>
+
+    <EditText
+        android:id="@+id/ThemLaptop_edtCauHinh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Cấu hình"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtMauSac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Màu sắc"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtGiaNhap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Giá nhập"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtGiaBan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Giá bán"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtLink"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Link sản phẩm ( nếu có )"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/ThemLaptop_edtSL"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Số lượng"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+    <Button
+        android:id="@+id/ThemLaptop_btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/botron_btn"
+        android:text="Thêm"
+        android:textColor="#fff"></Button>
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKiTaiKhoan.Activity_DangKiTaiKhoan">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DangKi_toolbar"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên"
+        android:textSize="20sp"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Name"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:textSize="20sp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"></TextView>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ email"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="User name"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="15dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/botron_btn"
+        android:layout_marginTop="30dp"
+        android:text="Tiếp tục"
+        android:textColor="#fff"></Button>
+
+</LinearLayout>

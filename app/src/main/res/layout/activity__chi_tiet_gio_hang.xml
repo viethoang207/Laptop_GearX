@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhachHang.ChucNang_GioHang.Activity_ChiTietGioHang">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/XemGioHang_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/XemGioHang_lv"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="110dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền : "></TextView>
+        <TextView
+            android:id="@+id/XemGioHang_tvTongTien"
+            android:textColor="#FF0101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 đ"></TextView>
+        <Button
+            android:id="@+id/XemGioHang_btnDatHang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="#FF0303"
+            android:text="Đặt hàng"
+            android:textColor="#fff"></Button>
+    </LinearLayout>
+
+</LinearLayout>
